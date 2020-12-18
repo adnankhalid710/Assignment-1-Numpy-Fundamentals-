@@ -2,7 +2,7 @@
 # https://github.com/adnankhalid710/AI-Q2-learning-resources/blob/master/NumpyAssignments/Assignment%231(Numpy%20Fundamentals).ipynb
 # 1-Import the numpy package under the name np
 import numpy as np
-'''
+
 # -------------------------------------------------------------------
 # Difficulty Level Medium
 # 2-Create a null vector of size 10
@@ -33,10 +33,10 @@ arr3d = np.array([[[1,2,2],[3,3,4],[32,33,34]]])
 print(arr3d)
 # arr3da = np.arange(27).reshape(3,3,3)
 # print(arr3d)
-'''
+
 # -------------------------------------------------------------------
 # Difficulty Level Easy
-'''
+
 # 11-Reverse a vector (first element becomes last)
 v1 = np.arange(0,10)
 print(f"The real vector is as follow{v1}")
@@ -82,15 +82,7 @@ c1[5:] = 12
 print(f"Replace the values of indexes 5,6,7 and 8 to 12 is as follow \n {c1}")
 
 # 20-Create a 2d array with 1 on the border and 0 inside
-'''
-'''
-c_2d = np.zeros(16).reshape(4,4)
-c_2d[0:4, 0:1] = 1  # first row    [row:row, Column:column]
-c_2d[0:1, 0:4] = 1  # first column
-c_2d[0:4, 3:4] = 1  # last column
-c_2d[3:4, 0:4] = 1  # last row
-'''
-'''
+
 c_2d = np.zeros(25).reshape(5, 5)
 c_2d[0:, 0:1] = 1  # first row
 c_2d[0:1, 0:] = 1  # first column
@@ -98,7 +90,6 @@ c_2d[0:1, 0:] = 1  # first column
 c_2d[0:, -1:] = 1  # last column
 c_2d[-1:, 0:] = 1  # last row
 print(c_2d)
-'''
 # -------------------------------------------------------------------
 # Difficulty Level Medium
 # 21-Replace the value 5 to 12
